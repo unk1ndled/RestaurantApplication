@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*background-color: rgb(72, 163, 49);*/
+}
+.top {
+    overflow:hidden;
+    border-radius:0ex;
+    height: 150px;
+    width: 1600px;
+  }
+  
+  .top a {
+    margin-right: 0px;
+    margin: 20;
+    float: right;
+    color: #faf9f9;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  .top a:hover {
+    background-color: rgb(248, 248, 248);
+    color: rgb(9, 139, 59);
+  }
+  
+  .top a.split {
+    float: left;
+    margin: 0;
+    font-size: 40px ;
+    margin-left: 10px ;
+    list-style: none ;
+    font-family:monospace;
+
+  }
+
+section {
+    width: 100%;
+    min-height: 600px;
+}
+.pattern {
+    position:relative;
+    background-color: #10a75b;
+    background-image: linear-gradient(315deg, #07c517 0%, #0c9758 80%);
+
+}
+  
+.pattern:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background: url(wave3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.intro{
+    margin-top: 50px;
+    margin-left: 450px;
+    margin-right: 500px;
+    display :flex;
+    text-align: center;
+    justify-content: center;
+    font-family:monospace;
+    color: white;
+    font-size:28px;
+}
+.intromenu{
+    margin-top: 100px;
+    display :flex;
+    text-align: center;
+    justify-content: center;
+    font-family:monospace;
+    color: rgb(1, 107, 63);
+    font-size:25px;
+}
+.moroccan {
+    margin: 40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(rgba(51, 42, 42, 0.5), rgba(53, 42, 42, 0.5)),url("foodmaroc.jpg");
+    height: 35%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:90%;
+    position: relative;
+  }
+
+  
+  .menulist button {
+    /*float:center ;*/
+    color: #faf6f6;
+    font-family:monospace;
+    text-decoration: none;
+    font-size: 50px;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: rgb(7, 124, 52);
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20px;
+    
+  }
+  .asian {
+    margin: 40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(rgba(51, 42, 42, 0.5), rgba(53, 42, 42, 0.5)),url("Asian.jpg");
+    height: 35%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:90%;
+    position: relative;
+  }
+  .FastFood {
+    margin: 40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(rgba(51, 42, 42, 0.5), rgba(53, 42, 42, 0.5)),url("fastfood.jpg");
+    height: 35%;
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    position: relative;
+  }
