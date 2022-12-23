@@ -21,19 +21,58 @@
             </div>
             <div class="menulist">
                 <div class="moroccan">
-                    <button >Moroccan</button>
+                    <button class="close"><a href="http://192.168.56.1:5500/test.html">Moroccan</a></button><br>
                 </div>
                 <div class="asian">
-                    <button >Asian</button>
+                    <button ><a href="http://10.5.0.106:5500/asian.html">Asian</a></button>
+                    
                 </div>
                 <div class="fastfood">
                     <button >FastFood</button>
                 </div>
             </div>
         </section> 
-        <section>
-            <div class="contact">
-                <h2>our social media</h2>
+        <section class="some">
+            <div class="reservation">
+                <div class="reser">reservation </div><br>
+                <form class="type">
+                    <label for="type" >   TYPE OF RESERVATION:</label><br>
+                        <select name="type" id="type"class="res" ><br>
+                            <option value="forone"selected>Table for one</option>
+                            <option value="fortwo">Table for two</option>
+                            <option value="formore">large reservation</option><br>
+                    </select><br><br>
+                </form>
             </div>
-        </section>   
-        
+            <div class="reservation">
+                <form class="city">
+                    <label for="city" >   CITY CHOICE :</label><br>
+                        <select name="city" id="city"class="res">
+                            <option value="rabat">RABAT</option>
+                            <option value="tanger">TANGER</option>
+                            <option value="casablanca" selected>CASABLANCA</option>
+                    </select><br><br>
+                </form>
+                <form class="date">
+                    <label for="start" >  RESERVATION DATE:</label><br>
+                        <input type="date" id="start" name="trip-start"
+                            value="2023-01-19"
+                            min="2023-01-01" max="2023-12-31" class="res">
+                </form>
+            </div>
+        </section>
+        <div class="contactus">
+            <div>
+                <div class="contact"><img src="" alt="err"> @ins_page </div>
+                <div class="contact"><img src="" alt="err"> fb_page </div>
+            </div>
+            <div>
+                <div class="contact"><img src="" alt="err"> numbers</div>
+                <div class="contact"><img src="" alt="err"> adresse </div>
+            </div>
+        </div>
+        <script src="res.js"></script>
+    
+    </body>   
+    
+</html>
