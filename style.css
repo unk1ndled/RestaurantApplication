@@ -55,7 +55,7 @@
     left: 0;
     width: 100%;
     height: 300px;
-    background-image: url(wave3.png);
+    background-image: url(src/images/wave3.png);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -85,7 +85,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image:linear-gradient(rgba(51, 42, 42, 0.5), rgba(53, 42, 42, 0.5)),url("foodmaroc.jpg");
+    background-image:linear-gradient(rgba(51, 42, 42, 0.5), rgba(53, 42, 42, 0.5)),url("src/images/foodmaroc.jpg");
     height: 35%;
     background-position: center;
     background-repeat: no-repeat;
@@ -119,7 +119,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image:linear-gradient(rgba(51, 42, 42, 0.5), rgba(53, 42, 42, 0.5)),url("Asian.jpg");
+    background-image:linear-gradient(rgba(51, 42, 42, 0.5), rgba(53, 42, 42, 0.5)),url("src/images/Asian.jpg");
     height: 35%;
     background-position: center;
     background-repeat: no-repeat;
@@ -131,7 +131,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image:linear-gradient(rgba(51, 42, 42, 0.5), rgba(53, 42, 42, 0.5)),url("fastfood.jpg");
+    background-image:linear-gradient(rgba(51, 42, 42, 0.5), rgba(53, 42, 42, 0.5)),url("src/images/fastfood.jpg");
     height: 35%;
     background-position:bottom;
     background-repeat: no-repeat;
